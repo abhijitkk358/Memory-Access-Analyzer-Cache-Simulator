@@ -19,7 +19,6 @@ KNOB<string> KnobOutputFile(KNOB_MODE_WRITEONCE, "pintool", "o", "trace.out", "t
 
 
 
-// sirf main wale lene hai
 VOID ImageLoad(IMG img, VOID* v)
 {
     if (IMG_IsMainExecutable(img))
